@@ -1,0 +1,5 @@
+Sitemap: http://rch-out.com/sitemap.hml
+User-agent: *
+Disallow: /js/*
+Disallow: /fonts/*
+Disallow: /mail/*
