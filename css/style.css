@@ -23,7 +23,7 @@ h2 {
 	line-height: 20px;
 	font-weight: 600;
 	margin: 0;
-	color: #709302;
+	color: #000000;
 }
 h3 {
 	font-size: 16px;
@@ -236,7 +236,7 @@ hr {
 /* About Section */
 #about {
 	padding: 140px 0;
-	background: #d6d6d0;
+	background: #73e0ee;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -277,7 +277,7 @@ hr {
 /* Services Section */
 #services {
 	padding: 140px 0;
-	background: url(../img/services-bg.jpg);
+	background: url(../img/background-2462432_1920.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
