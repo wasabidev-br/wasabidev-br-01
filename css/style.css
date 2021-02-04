@@ -2,7 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
 @import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
 
-
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -18,12 +17,11 @@ h1 strong {
 	font-weight: 900;
 }
 h2 {
-    font-family: 'Questrial';
-	text-transform: none;
+	text-transform: uppercase;
 	line-height: 20px;
 	font-weight: 600;
 	margin: 0;
-	color: #000000;
+	color: #555;
 }
 h3 {
 	font-size: 16px;
@@ -104,11 +102,6 @@ hr {
 	border: 0;
 }
 /* Navigation */
-.navbar-header {
-    font-family: 'Baloo Thambi', sans-serif;
-    font-size: 28px;
-	color: #f74902;
-}
 .navbar-custom {
 	padding: 0;
 	border-bottom: 0;
@@ -117,7 +110,7 @@ hr {
 	text-transform: uppercase;
 }
 .navbar-custom .navbar-brand {
-	font-weight: 500;
+	font-weight: 600;
 }
 .navbar-custom .navbar-brand i.fa {
 	color: #E75926;
@@ -133,13 +126,13 @@ hr {
 }
 .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
 	background-color: #E75926;
-	color: #fff;
+	color: #ffffff;
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
 	outline: 0;
 }
 .navbar-custom a {
-	color: #E75926;
+	color: #fff;
 }
 .navbar-custom .nav li a {
 	-webkit-transition: background .3s ease-in-out;
@@ -148,13 +141,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #8cd600;
+	color: #E75926;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #8cd600;
+	color: #E75926;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -173,7 +166,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/pexels-photo.jpeg) no-repeat center center fixed;
+	background: url(../img/intro-photo.jpeg) no-repeat center center fixed;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -212,7 +205,12 @@ hr {
 	height: 100%;
 	padding: 0;
 }
-
+#intro .intro-body .intro-text {
+	font-size: 40px;
+	letter-spacing: 1px;
+	margin-bottom: 100px;
+	color: rgba(45, 233, 240, 0.938);
+}
 }
 .btn-default {
 	color: #f6f6f6;
@@ -236,27 +234,25 @@ hr {
 /* About Section */
 #about {
 	padding: 140px 0;
-	background: #73e0ee;
+	background: #f6f6f6;
 }
 #about .about-text {
 	margin-left: 10px;
 }
 #about H4 {
 	font-size: 20px;
-    color:black;
 }
 #about li {
 	margin-bottom: 3px;
 	list-style: none;
 	padding: 0;
-	font-size: 16px;
-    color: black;
+	font-size: 13px;
 }
 #about li:before {
 	content: "✓";
 	font-weight: 600;
 	padding-right: 10px;
-	color:darkred;
+	color: #e75926;
 }
 #about i.fa {
 	float: left;
@@ -270,7 +266,6 @@ hr {
 	margin-top: 20px;
 }
 #about p {
-    color: black;
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
@@ -284,7 +279,9 @@ hr {
 #services .service {
 	padding: 20px 10px;
 }
-
+#services h2 {
+	color: #f6f6f6;
+}
 #services h3 {
 	font-size: 20px;
 	font-weight: 600;
@@ -481,26 +478,18 @@ img.img-thumbnail.team-img {
 /* Contact Section */
 #contact {
 	padding: 120px 0 40px 0;
-	background: #99CCFF;
-}
-#contact .form-control {
-	background: #777263;
-    color: #202020;
+	background: #f6f6f6;
 }
 #contact .contact-item {
 	padding: 10px;
 	margin: 10px;
 	height: 100px;
-	border-radius: 5px;
+	border-radius: 4px;
 }
 #contact h3 {
 	font-size: 20px;
 	font-weight: 400;
 	margin-top: 40px;
-    color: #202020;
-}
-#contact p {
-    color: #202020;
 }
 #contact form {
 	padding: 30px 0;
@@ -526,11 +515,11 @@ label {
 	padding: 6px 12px;
 	font-size: 14px;
 	line-height: 1.42857143;
-	color: #111;
-	background-color: #777263;
+	color: #555;
+	background-color: #fff;
 	background-image: none;
-	border: 1px solid #777263;
-	border-radius: 5px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-transition: none;
