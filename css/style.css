@@ -50,16 +50,6 @@ a:hover, a:focus {
 ul, ol {
 	list-style: none;
 }
-.main-container h1 {
-  font-family: Arial;
-  text-align: center;
-}
-.main-container p {
-  font-family: Arial;
-  text-align: center;
-}
-
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
