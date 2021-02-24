@@ -601,3 +601,18 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-size: 5em;
 }
 }
+.whatsapp {
+    display: block;
+    position: fixed;
+    z-index: 20;
+    bottom: 6em;
+    text-align: center;
+    right: 1.2em;
+            transition-timing-function: ease-in-out;
+            transition-duration: 2s;
+  }
+  
+  .whatsapp :hover {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
